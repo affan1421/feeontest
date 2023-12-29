@@ -1,0 +1,93 @@
+.main {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.search {
+    width: 70%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    margin: 20px;
+}
+
+.search_input {
+    width: 80%;
+}
+
+.school_name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+}
+
+.right {
+    min-width: 10%;
+    max-width: 15%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user_info span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.NotificationsIconWrapper {
+    display: flex;
+    align-items: center;
+}
+.NotificationsIconWrapper:first-child {
+    cursor: pointer;
+}
+
+.date {
+    color: #757575;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+
+@media (max-width:600px) {
+    .search {
+        width: 90%;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .search_input {
+        width: 90%;
+    }
+
+    .school_name{
+        display: none;
+    }
+}
+

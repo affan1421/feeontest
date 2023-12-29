@@ -1,0 +1,28 @@
+.main {
+    padding: 20px;
+    width: 550px;
+    min-height: 50px;
+    max-height: 500px;
+}
+
+.search_icon_container {
+    display: flex;
+    align-items: center;
+    padding: 05px;
+    margin-right: 10px;
+}
+
+.search {
+    font-size: 20px !important;
+    color: red;
+}
+.searchBar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 95%;
+}
+.noResults span{
+    margin-left: 35%;
+    margin-top: 10%;
+}

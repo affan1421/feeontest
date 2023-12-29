@@ -1,0 +1,84 @@
+/* .main {
+    padding: 20px;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.actions {
+    display: flex;
+    font-weight: 300px;
+}
+
+.category {
+    background: #E6EDFE;
+    color: #000;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.discount {
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 20px 0px;
+}
+
+.tab {
+    font-family: Inter;
+    font-size: 0.875rem !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-transform: capitalize !important;
+}
+
+.tabs {
+    margin-top: 24px;
+}
+
+.class {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 0px;
+}
+
+.graph {
+    background: #FFF;
+    padding:20px;
+    border-radius: 20px;
+}
+.graphTitle{
+    margin-bottom: 20px;
+}
+.nodata{
+    display: flex;
+    gap: 24px;
+    padding: 24px 0px;
+    background: #FFF;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    margin: 20px;
+}

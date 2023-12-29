@@ -1,0 +1,57 @@
+.main {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #5C6F7E;
+    margin-left: 15px;
+}
+
+.amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 32px;
+    color: #2F3941;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.noData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px !important;
+}

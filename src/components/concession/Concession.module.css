@@ -1,0 +1,97 @@
+.block span {
+  display: block;
+}
+
+.subHeading {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 111.111% */
+}
+
+.total {
+  color: var(--Con2, #2f3941);
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 107.692% */
+  padding: 15px 0;
+}
+
+.main {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selector {
+  margin: 10px;
+}
+
+.filter {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.card {
+  width: 48%;
+}
+
+.alignCards {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.reason {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+
+
+@media (max-width: 1108px) {
+    .alignCards{
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+  
+    .card {
+      width: 100%; /* Cards take full width on smaller screens */
+      max-width: none; /* Remove max-width on cards */
+      margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+  }
+
+@media (max-width: 768px) {
+    .row{
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+  
+    .card {
+      width: 100%; /* Cards take full width on smaller screens */
+      max-width: none; /* Remove max-width on cards */
+      margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+  }

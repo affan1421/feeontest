@@ -1,0 +1,131 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.item {
+    width: 32%;
+}
+
+.student {
+    width: 32%;
+}
+
+.trasactions {
+    position: relative;
+    width: 40%;
+}
+
+.counts {
+    width: 20%;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.inr {
+    color: var(--con-2, #2F3941);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+.price {
+    color: var(--con-2, #2F3941);
+    font-family: Inter;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+.count_title {
+    color: #888;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.table {
+    width: 100%;
+    background-color: white;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 34px;
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.paid {
+    color: #00200d;
+    background-color: #e2faee;
+}
+
+.due {
+    color: #3a0004;
+    background-color: #ffe5e7;
+}
+
+.partial {
+    color: #171717;
+    background-color: #ededed;
+}
+
+.upcoming {
+    background-color: #fef7d3;
+    color: #3a3a00;
+}
+
+.category_tag {
+    width: fit-content;
+    border-radius: 04px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 05px;
+    color: #00200d;
+    background-color: #e2faee;
+}
+
+.icon {
+    position: absolute;
+    top: 5%;
+    left: 88%;
+}
+
+.count_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.counts .count_item:not(:first-child) {
+    margin-top: 20px;
+}
+
+
+.count_item img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.count_item div {
+    display: flex;
+    flex-direction: row;
+}

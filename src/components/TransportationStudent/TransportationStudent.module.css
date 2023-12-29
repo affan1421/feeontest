@@ -1,0 +1,133 @@
+.main {
+    width: 95%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin: 25px; */
+}
+
+.search {
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+}
+
+.search_input {
+    width: 65%;
+    height: 20%;
+}
+
+.row {
+    display: flex;
+    width: 98%;
+    padding: 10px;
+    align-items: center;
+}
+
+.selector {
+    height: 40px;
+    width: 18%;
+    margin-top: 15px;
+}
+
+.add {
+    width: 140px;
+    border-radius: 4px;
+    background: var(--fill-primary-enabled, #2760EA);
+    display: flex;
+    padding: 8px 16px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.delete {
+    width: 160px;
+    align-items: center;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid var(--border-on-surface-enabled, #DBDBDB);
+    color: var(--text-on-surface-subdued, #555);
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.table {
+    min-height: 425px;
+}
+
+.tablerow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--text-on-surface-subdued, #555);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.userImg {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    border-radius: 999px;
+    border: 2px solid var(--fill-surface-enabled, #FFF);
+    background: lightgray 50% / cover no-repeat, #EDEDED;
+}
+
+.data {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.nodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.rowColor {
+    background-color: #555555;
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Paid {
+    border-radius: 12px;
+    padding: 4px 12px;
+    background: var(--G2, #E5FFE7);
+    color: #007A05;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.Due {
+    border-radius: 12px;
+    padding: 4px 12px;
+    background-color: #ffe5e7;
+    color: var(--warning, #FA2727);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+}

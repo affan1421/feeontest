@@ -1,0 +1,25 @@
+.container {
+    width: 98%;
+    height: 500px
+}
+
+.box {
+    background-color: white !important;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.search {
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+}
+
+.search_input {
+    width: 90%;
+}

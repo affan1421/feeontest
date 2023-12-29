@@ -1,0 +1,26 @@
+.container {
+  border-radius: 10px;
+  padding-left: 3px;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main {
+  height: 425px;
+  padding: 20px;
+  border-radius: "10px";
+}
+
+button {
+  font-weight: 600;
+}

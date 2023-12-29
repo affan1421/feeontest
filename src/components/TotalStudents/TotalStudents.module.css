@@ -1,0 +1,70 @@
+.main {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 24px rgba(20, 37, 63, 0.06);
+    border-radius: 16px;
+    padding: 20px 30px;
+    border: 2px solid #C8C8C8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header span {
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #5C6F7E;
+}
+
+.header {
+    display: flex;
+    margin-bottom:10px;
+}
+
+.amount span {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2F3941;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.boys,
+.girls {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.font {
+    color: #5C6F7E;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.font_amt {
+    color: #2F3941;
+    font-weight: 600;
+    font-size: 16px;
+
+}

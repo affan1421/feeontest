@@ -1,0 +1,168 @@
+.main {
+    width: 92%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.table {
+    min-height: 425px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin: 0px 10px;
+}
+
+.row {
+    margin: 10px 0px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    margin-right: 20px;
+    width: 45%;
+}
+
+.selector {
+    height: 41px;
+    width: 30%;
+    margin-right: 5px;
+    margin-left: 16px;
+}
+
+.datepicker {
+    margin-top: 8px;
+}
+
+.download {
+    width: 35%;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.nodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.dialogHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.download {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.download button {
+    background-color: white;
+    border: 1.5px solid #DBDBDB;
+    margin-left: 15px;
+    color: black
+}
+
+.download_icon {
+    color: #566e7e
+}
+
+.item {
+    height: 40px;
+    padding: 0px 20px;
+    background: #E6EDFE;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    color: #000;
+}
+
+.active {
+    background-color: #3400e9;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.rangebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.summary {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.summary_amount {
+    color: #2F3941;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.summary_desc {
+    color: #2F3941;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+@media (max-width:600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search {
+        width: 95%;
+    }
+
+    .selector {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .download {
+        width: 100%;
+    }
+
+    .download button {
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}

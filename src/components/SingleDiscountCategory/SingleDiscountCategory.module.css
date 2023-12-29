@@ -1,0 +1,16 @@
+.navigation {
+    padding: 20px;
+}
+
+.header {
+    padding: 0 10px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px;
+}

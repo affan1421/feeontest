@@ -1,0 +1,99 @@
+.main {
+    width: 95%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin: 25px; */
+}
+
+.search {
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.search_input {
+    width: 75%;
+}
+
+.row {
+    display: flex;
+    width: 98%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.btn button {
+    display: flex;
+    width: 130px;
+    padding: 8px 16px 8px 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.table {
+    min-height: 425px;
+}
+
+.nodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.item {
+    color: #2760EA;
+}
+
+.title {
+    display: flex;
+    width: 385px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000000;
+}
+
+.cancel {
+    border-radius: 7px;
+    border: 1px solid #C3C3C3;
+    display: flex;
+    height: 40px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    color: var(--Grey-3, #999);
+}
+.routes {
+    display: flex;
+    padding: 0px 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 2;
+    width: 250px;
+    gap: 4px;
+}
+
+.routeItem {
+    color: var(--blue-1-primary, #2760EA);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}

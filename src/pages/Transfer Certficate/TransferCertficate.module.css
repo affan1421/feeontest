@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 05px;
+}
+
+.header span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search {
+  background-color: #ededed !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  display: "flex";
+  align-items: "center";
+  flex-direction: row;
+  height: inherit !important;
+}

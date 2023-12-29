@@ -1,0 +1,133 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    min-height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.action button {
+    margin: 0px 10px;
+}
+
+.cancel {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 48%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.row {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.selector {
+    width: 48% !important;
+    height: 45px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+    height: 100px !important;
+}
+
+.input_desc {
+    height: 100px;
+    width: 64%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.dialog_container {
+    width: 600px;
+    padding: 25px;
+}
+
+.dialog_selector {
+    width: 48%;
+}
+
+.dialog_input {
+    width: 45%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 20px !important;
+}
+
+.cancel {
+    background: none;
+}
+
+/* .faded_btn { */
+/* background-color: #6c94f134;
+    color: #2760EA; */
+/* } */
+
+.save:disabled,
+.save[disabled] {
+    background-color: #6c94f134;
+    color: #2760EA;
+}

@@ -1,0 +1,16 @@
+.donor_card {
+    margin: 30px;
+}
+
+.donor_list {
+    margin: 10px 30px;
+}
+
+.header {
+    margin: 0px 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

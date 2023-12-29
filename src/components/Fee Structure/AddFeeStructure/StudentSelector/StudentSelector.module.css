@@ -1,0 +1,30 @@
+.main {
+    width: 500px;
+    padding: 25px;
+}
+
+.search {
+    width: 100%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.search_input {
+    width: 90%;
+}
+
+.faded_btn {
+    background-color: #6c94f134;
+    color: #2760EA;
+}
+
+.students {
+    max-height: 350px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,70 @@
+.dialog_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog {
+    padding: 24px;
+    width: 600px;
+    border-radius: 20px !important;
+}
+
+h1{
+    font-size: 19px;
+}
+.input_desc {
+    width: 95%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+    height: 100px !important;
+}
+
+.heading{
+    font-size:15px;
+    font-weight: 600;
+    margin-right:5px;
+}
+
+.details{
+    color:#555;
+    margin-right: 10px;
+    font-size:15px;
+}
+.row{
+    display: flex;
+    margin-top: 10px;
+}
+.title h1{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.download span{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    width:20%;
+    font-size: 15px;
+}
+
+.download{
+    margin-top: 20px;
+}
+

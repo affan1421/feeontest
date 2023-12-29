@@ -1,0 +1,59 @@
+.container {
+    background-color: white;
+    /* margin: 20px; */
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* width: 30%; */
+}
+
+.main {
+    height: 100%;
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.status {
+    display: flex;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.approved {
+    color: #0E7C33;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.pending {
+    color: rgba(211, 30, 30, 1);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nodata {
+    margin: 25%;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 85%;
+    }
+}

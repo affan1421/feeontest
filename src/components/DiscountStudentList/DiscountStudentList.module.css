@@ -1,0 +1,51 @@
+.main {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%
+}
+
+.filter {
+    display: flex;
+    width: 100%;
+}
+
+.selector {
+    height: 41px;
+    width: 20%;
+    margin: 12px;
+}
+
+.search {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.amount {
+    background-color: #e2faee;
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+
+.categoryRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: #ededed;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.amountRow {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,128 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    margin: 15px 0px;
+}
+
+.dialog_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog {
+    padding: 24px;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dialog_container {
+    margin-top: 20px
+}
+
+.input {
+    width: 95%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 80%;
+}
+
+.input_desc {
+    width: 95%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.type_selector {
+    width: 100% !important;
+    height: 45px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+
+.dialog_footer {
+    display: flex;
+    justify-content: end;
+    margin: 25px 10px;
+}
+
+.every_and_type {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.every_and_type div {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.start_and_end {
+    margin-top: 20px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+}
+
+.selector {
+    width: 98%;
+}
+
+
+@media (min-width:600px) {
+    .dialog {
+        width: 600px;
+    }
+}

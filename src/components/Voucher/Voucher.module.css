@@ -1,0 +1,25 @@
+.main {
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 05px;
+}
+
+.header span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.download {
+    position: absolute;
+    top: 87%;
+    left: 80%;
+}

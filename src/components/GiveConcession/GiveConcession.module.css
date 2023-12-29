@@ -1,0 +1,22 @@
+.main {
+    padding: 20px;
+}
+
+.headingWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectWrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.classSelectWrapper {
+    width: 160px;
+}
+
+.studentSelectWrapper {
+    width: 300px;
+}

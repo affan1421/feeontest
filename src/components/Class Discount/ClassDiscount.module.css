@@ -1,0 +1,32 @@
+.slider {
+    display: flex;
+    margin-top:5%;
+    align-items: flex-start;
+}
+
+.classname {
+    margin-right:50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left:50px;
+}
+
+.status {
+    margin-left: 10%;
+}
+
+.right_container {
+    width:95%;
+    margin-top: 20px;
+}
+
+.heading span {
+    font-size: 18px;
+    font-weight: 700;
+}
+

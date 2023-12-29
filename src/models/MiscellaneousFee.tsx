@@ -1,0 +1,20 @@
+export interface MiscellaneousFeeType {
+    studentId: string,
+    classId: string,
+    receiptType: string,
+    paymentMethod: string,
+    bankName?: string,
+    chequeDate?: string,
+    chequeNumber?: string,
+    transactionDate?: string,
+    transactionId?: string,
+    upiId?: string,
+    payerName?: string,
+    ddNumber?: string,
+    ddDate?: string,
+    feeTypeId: string,
+    issueDate?: string,
+    totalFeeAmount: number | string,
+    createdBy:string,
+    status?: string
+}

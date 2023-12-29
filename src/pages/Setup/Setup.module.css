@@ -1,0 +1,15 @@
+.container {
+    background-color: white;
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: 700;
+}

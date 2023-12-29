@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    margin: 15px 0px;
+}
+
+.main {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.filters {
+    margin: 10px 05px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.selector {
+    height: 41px;
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 04px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #e2faee;
+}
+
+.pending {
+    background-color: #fef7d3;
+}
+
+.approved {
+    background-color: #e2faee;
+}
+
+.rejected {
+    background-color: #ffe5e7;
+}
+
+.search {
+    width: 80%;
+}

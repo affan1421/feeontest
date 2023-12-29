@@ -1,0 +1,13 @@
+.header {
+    color: var(--Con2, #2f3941);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+
+.divider{
+    margin: 30px 0;
+
+}

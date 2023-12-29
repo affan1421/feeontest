@@ -1,0 +1,131 @@
+.main {
+    width: 92%;
+    background: white;
+    border-radius: 10px;
+    margin: 30px 25px;
+    padding: 20px;
+}
+
+.table {
+    height: 425px;
+}
+
+.row {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    width: 30%;
+    margin-right: 20px;
+
+}
+
+.selector {
+    height: 41px;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.input_date {
+    width: 20%;
+    background-color: transparent !important;
+}
+
+.datepicker {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.dialogHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.date {
+    width: 120px;
+    height: 40px;
+    background: #E6EDFE;
+    border-radius: 8px;
+    color: black;
+
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #e2faee;
+}
+
+.disabled {
+    background-color: grey;
+}
+
+.REQUESTED {
+    background-color: #fef7d3;
+}
+
+.CANCELLED {
+    background-color: #e2faee;
+}
+
+.PAID {
+    background-color: #e2faee;
+}
+
+.REJECTED {
+    background-color: #ffe5e7;
+}
+
+.input_desc {
+    width: 95%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+    height: 40px !important;
+}
+
+.reason_footer {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tooltip {
+    font-size: 13px;
+}

@@ -1,0 +1,34 @@
+.main {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    width:85%
+}
+
+.filter{
+    display: flex;
+    width: 100%;
+}
+
+.selector{
+    height: 41px;
+    width: 20%;
+    margin: 10px;
+}
+.search{
+    width: 30%;
+    margin-right: 20px;
+}
+.amount {
+    background-color: #e2faee;
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.amountRow {
+    display: flex;
+    flex-wrap: wrap;
+}

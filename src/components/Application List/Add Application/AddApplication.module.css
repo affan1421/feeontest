@@ -1,0 +1,52 @@
+.main {
+    background-color: white;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 20px 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.input {
+    width: 33%;
+    margin: 5px;
+}
+.input_gender {
+    width: 25%;
+    margin-bottom:15px;
+    margin-left:30px;
+}
+.label_gender{
+    padding:5px;
+    margin: 5px;
+}
+
+
+.selector {
+    padding: 15px;
+    width: 31%;
+    margin: 5px;
+    margin-top: 5px;
+}
+.selector_gender {
+    width: 25%;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.label{
+    padding:5px;
+    margin: 15px;
+}

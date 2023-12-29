@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: var(--fill-surface-enabled, #FFF);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.04), 0px 24px 32px 0px rgba(0, 0, 0, 0.04);
+    height: 600px;
+    width: 600px;
+    padding: 24px;
+}
+
+.title {
+    color: var(--text-on-surface-enabled, #171717);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio {
+    margin: 16px 0px 16px 0px;
+}
+
+.import_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 79px 165px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px dashed rgba(123, 123, 123, 0.50);
+}
+
+.import_container span {
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 28px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download_btn {
+    border-radius: 8px;
+    background: var(--fill-primary-subdued-enabled, #E6EDFE);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.footer button {
+    background-color: white;
+    border: 1.5px solid #DBDBDB;
+    color: black;
+}

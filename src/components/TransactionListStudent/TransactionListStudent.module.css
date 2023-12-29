@@ -1,0 +1,106 @@
+.main {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 900px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selector {
+    height: 41px;
+    width: 100%;
+}
+
+.filter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.filter_item {
+    width: 20%;
+}
+
+.filter_item:nth-child(2) {
+    margin: 0px 20px;
+}
+
+.table {
+    height: 450px;
+}
+
+.input_desc {
+    width: 95%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+    height: 40px !important;
+}
+
+.reason_footer {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: grey;
+}
+
+.requested {
+    background-color: #fef7d3;
+}
+
+.cancelled {
+    background-color: #e2faee;
+}
+
+.paid {
+    background-color: #e2faee;
+}
+
+.rejected {
+    background-color: #ffe5e7;
+}
+
+.tooltip {
+    font-size: 13px;
+}

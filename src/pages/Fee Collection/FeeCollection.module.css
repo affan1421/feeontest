@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.left{
+    width:30%;
+    margin: 10px;
+}
+.right{
+    width:65%;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .main{
+        flex-direction: column;
+    }
+}

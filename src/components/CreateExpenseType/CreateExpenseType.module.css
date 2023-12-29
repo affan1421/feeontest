@@ -1,0 +1,117 @@
+.container {
+    margin: 10px 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+    flex-direction: column;
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.action button {
+    margin: 0px 10px;
+}
+
+.cancel {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+
+.save:disabled,
+.save {
+    background: rgba(39, 96, 234, 0.2);
+    border-radius: 4px;
+    color: rgba(39, 96, 234, 0.6);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.row {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.main_left {
+    min-width: 60%;
+}
+
+.input_input_desc {
+    display: flex;
+    align-items: start;
+    padding: 05px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #ededed;
+    height: 100px !important;
+}
+
+.input_desc {
+    width: 100%;
+    max-width: 100%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.main_right {
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid #DBDBDB;
+    margin-top: 25px;
+    margin-left:30px;
+    padding: 15px;
+    min-width: 30%;
+}
+
+.nobackgroundInput {
+    background-color: #fff !important;
+    border: 1px solid #DBDBDB;
+}

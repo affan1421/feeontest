@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item {
+    align-items: center;
+    gap: 8px;
+    height: 38px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E6EDFE;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #3400e9;
+    color: #ffffff;
+}
+
+.custom {
+    background-color: white;
+    margin: 0px 10px;
+}

@@ -1,0 +1,100 @@
+.main {
+    width: 92%;
+    background: white;
+    border-radius: 10px;
+    margin: 30px 25px;
+    padding: 20px;
+}
+
+.main h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table {
+    height: 425px;
+}
+
+.row {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    width: 35%;
+    margin-right: 25px;
+}
+
+.selector {
+    height: 41px;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.button {
+    display: flex;
+}
+
+.tablebtn {
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 129px;
+    height: 40px;
+    background: #E6EDFE;
+    border-radius: 8px;
+    color: #091634;
+    margin-left: 20px;
+
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Paid {
+    background-color: #e2faee;
+}
+
+.Upcoming {
+    background-color: #e2faee;
+}
+
+.Due {
+    background-color: #ffe5e7;
+}
+
+.payment {
+    border-radius: 8px;
+    background: #2760EA;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    color: #FAFBFF;
+    text-align: center;
+}
+
+.transaction {
+    border-radius: 8px;
+    background: #E6EDFE;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    color: #091634;
+    text-align: center;
+}
+
+.disabled {
+    background: #ededed;
+    color: #091634;
+}

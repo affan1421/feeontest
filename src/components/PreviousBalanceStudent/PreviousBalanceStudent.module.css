@@ -1,0 +1,57 @@
+.dialog {
+    padding: 24px;
+    width: 603px;
+    border-radius: 16px;
+}
+
+.dialog_header {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog_container {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.selector {
+    width: 40%;
+    margin-right: 10px;
+    height:46px;
+}
+
+.select {
+    width: 31%;
+    margin:10px 10px 0  0;
+}
+
+.input {
+    width: 33%;
+    margin-top: 12px;
+}
+.left_input {
+    width:45%;
+    margin-right:25px;    
+}
+
+.button {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.cancel {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+
+.save {
+    background: rgba(39, 96, 234, 0.2);
+    color: rgba(39, 96, 234, 0.6);
+    border-radius: 4px;
+}

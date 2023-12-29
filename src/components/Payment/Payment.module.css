@@ -1,0 +1,116 @@
+.container {
+    min-width: 600px;
+    display: flex;
+    min-height: 450px;
+    padding: 30px 40px;
+    flex-direction: column;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.row {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.selector {
+    min-width: 90%;
+    height: 45px;
+    margin: 12px 10px;
+}
+
+.input {
+    width: 50%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    margin: 0px 0px;
+    border-radius: 20px !important;
+}
+
+.input_input {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 80%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.outlined_button {
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    color: #171717;
+    margin-top: 08px;
+}
+
+.faded_button {
+    background-color: #d2dbfb;
+    color: #2760EA;
+}
+
+.paymentselector {
+    width: 35%;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.details {
+    width: 65%;
+    background-color: white;
+    padding: 16px;
+    margin: 10px 20px;
+    min-height: 100%;
+    display: flex;
+    border: 1px solid #DBDBDB;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payment_row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.detail_card {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detail_card div {
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,130 @@
+.main {
+  background-color: #f5f5f5;
+}
+
+.header {
+  margin: 20px 25px 0px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowSelector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bg {
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.selector {
+  width: 30%;
+}
+
+.closeCollectionBtn {
+  background: #e6edfe;
+  color: #2f3941;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 70%;
+  padding: 15px;
+}
+
+.right {
+  width: 30%;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.rightItem {
+  margin-bottom: 8px;
+  height: 100%;
+  padding: 10px;
+}
+
+.student_card {
+  width: 60%;
+  margin: 10px;
+}
+
+.class_card {
+  width: 40%;
+  margin: 10px;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px;
+  gap: 30px;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.dialogHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .student_card,
+  .class_card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.student_card {
+  padding: 5px 0px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+}

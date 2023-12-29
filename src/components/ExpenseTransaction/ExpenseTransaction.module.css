@@ -1,0 +1,169 @@
+.main {
+    width: 92%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.table {
+    min-height: 425px;
+}
+
+.nodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    margin: 0px 10px;
+}
+
+.search {
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.search_input {
+    width: 75%;
+}
+
+.selector {
+    height: 40px;
+    width: 22%;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background: #E6EDFE;
+    border-radius: 8px;
+    color: #091634;
+    margin-top: 18px;
+    padding: 10px 10px;
+    align-items: center;
+    font-weight: 600;
+    width: 20%;
+}
+
+.close {
+    background: #E6EDFE;
+    padding: 8px 8px;
+    margin-top: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.payment_selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.item {
+    height: 40px;
+    padding: 0px 20px;
+    background: #E6EDFE;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    color: #000;
+}
+
+.active {
+    background-color: #3400e9;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 8px;
+    margin-left: 5px;margin-top: 10px;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.dialogHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.download {
+    width: 10%;
+    margin-left: 20px;
+}
+
+.download button {
+    margin-top: 15px;
+    background-color: white;
+    border: 1.5px solid #DBDBDB;
+    margin-left: 15px;
+    color: black
+}
+
+.download_icon {
+    color: #566e7e;
+}
+
+.datepicker {
+    margin-top: 20px;
+}
+
+.rangebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .download {
+        width: 100%;
+    }
+
+    .download button {
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}

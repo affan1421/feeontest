@@ -1,0 +1,50 @@
+.main {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    width: 900px;
+    margin: 20px;
+}
+
+.heading span {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left:10px;
+
+}
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selector {
+    margin: 10px;
+
+}
+
+
+.filter {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+}
+
+.table {
+    padding: 25px;
+    width: 100%;
+}

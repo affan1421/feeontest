@@ -1,0 +1,33 @@
+.students_associated {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.approved {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 05px 8px;
+    background-color: #e2faee;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pending {
+    background-color: #fef7d3;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 05px 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.table {
+    margin: 20px 0px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

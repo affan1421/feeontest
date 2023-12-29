@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    font-size: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0072A7;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #171717;
+}
+
+.total_amount_card {
+    margin-right: 20px;
+}
+
+.tag {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #7BC023;
+}
+
+.top_donor_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.top_donor_card img{
+    height: 80px;
+    width: 80px;
+}
+
+.table {
+    margin-top: 20px;
+    height: 425px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}

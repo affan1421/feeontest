@@ -1,0 +1,9 @@
+.PENDING {
+  background-color: #ffd6af; 
+}
+.REJECTED {
+  background-color: #ffafaf !important;
+}
+.APPROVED {
+  background-color: #e8f7ed !important;
+}

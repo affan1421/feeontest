@@ -1,0 +1,6 @@
+projectKey=feeOn-Frontend-Prod
+serverUrl=https://sonar.growon.app/
+serverVersion=9.7.1.62043
+dashboardUrl=https://sonar.growon.app/dashboard?id=feeOn-Frontend-Prod
+ceTaskId=AYZUCBCNkJ4yWlqcd7QU
+ceTaskUrl=https://sonar.growon.app/api/ce/task?id=AYZUCBCNkJ4yWlqcd7QU

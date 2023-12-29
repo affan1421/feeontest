@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 05px;
+}
+
+.add_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.a_h_left {
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: 700;
+}

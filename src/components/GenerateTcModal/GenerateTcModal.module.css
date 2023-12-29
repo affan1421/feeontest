@@ -1,0 +1,14 @@
+.modal_box {
+  min-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  max-height: 85%;
+  overflow: scroll;
+}
+
+.modalThing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

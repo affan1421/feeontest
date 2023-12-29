@@ -1,0 +1,82 @@
+.container {
+  width: 60%;
+}
+
+.header {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.formControlLabel {
+  margin-right: 60px !important;
+}
+
+.reasons {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.line {
+  padding: 0px 10px;
+}
+
+.margin {
+  background: blue;
+}
+
+.reasonTypes {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+}
+
+img {
+  cursor: pointer;
+}
+
+.addIcon{
+  margin-left: 2px;
+}
+
+.buttonContainer,
+.addHeader {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.buttonContainer span {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.addHeader span {
+  color: var(--B1, #2760ea);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

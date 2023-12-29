@@ -1,0 +1,25 @@
+.main {
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    width: 950px
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.left {
+    display: flex;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+.selector {
+    max-width: 400px;
+}

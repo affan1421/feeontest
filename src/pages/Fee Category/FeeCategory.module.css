@@ -1,0 +1,25 @@
+.container {
+    background-color: white;
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main {
+    height: 425px;
+    background: white;
+    padding: 20px;
+    border-radius: '10px'
+}

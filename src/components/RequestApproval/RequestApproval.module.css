@@ -1,0 +1,37 @@
+.dialog_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog {
+    padding: 24px;
+    width:600px;
+}
+.row{
+    padding:5px;
+    color:#000;
+    font-weight: 700;
+}
+.detail{
+    font-weight: 300;
+    margin: 10px;
+}
+.row p{
+    font-weight: 400;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color:#000;
+    font-weight: 700;
+}
+.comment{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color:#000;
+    font-weight: 700;
+}

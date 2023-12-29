@@ -1,0 +1,137 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.main {
+    margin: 10px 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stats_card {
+    width: 45%;
+    background-color: white;
+    margin: 10px 20px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.stats_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #566e7e;
+}
+
+.stats_budget_spent {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2c3841;
+    margin-top: 20px;
+}
+
+.gridcontainer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.griditem {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.griditem span {
+    color: #566e7e;
+    font-weight: 600;
+}
+
+.input {
+    width: 20%;
+    background-color: #ededed !important;
+    box-shadow: none !important;
+    padding: '2px 4px';
+    display: 'flex';
+    align-items: 'center';
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px !important;
+}
+
+.input_input {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 80%;
+}
+
+.filters {
+    margin: 10px 20px;
+    display: flex;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 16px;
+}
+
+.selector {
+    margin: 0px 20px;
+    height: 46px;
+    width: 20%;
+}
+
+.table {
+    padding: 20px 30px;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.cell_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.cell_image {
+    margin-right: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+    padding: 12px 20px;
+}
+
+.status {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 05px 8px;
+    margin: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e2faee;
+}

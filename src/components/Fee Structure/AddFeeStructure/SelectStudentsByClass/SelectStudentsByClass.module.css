@@ -1,0 +1,19 @@
+.class {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.assign {
+    background-color: #6c94f134;
+    color: #2760EA;
+}
+
+.assign:disabled,
+.assign[disabled] {
+    border: 1px solid #999999 !important;
+    background-color: #cccccc !important;
+    color: #666666 !important;
+}

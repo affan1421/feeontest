@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.fmain {
+    display: flex;
+}
+
+.button {
+    padding: 10px;
+    background-color: #191e24;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    align-self: baseline;
+    justify-content: baseline;
+}

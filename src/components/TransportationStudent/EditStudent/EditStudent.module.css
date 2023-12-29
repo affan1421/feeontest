@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    width: 700px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border-radius: 16px;
+    background: var(--fill-surface-enabled, #FFF);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.header h1 {
+    color: var(--Grey-3, #999);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.72px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.textinput {
+    color: var(--Grey-2, #928989);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.route {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    align-self: stretch;
+}
+
+.selector {
+    width: 20%;
+    padding: 10px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input {
+    width: 90px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.action {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.add {
+    border-radius: 7px;
+    background: var(--B1, #2760EA);
+    display: flex;
+    width: 149px;
+    height: 40px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
